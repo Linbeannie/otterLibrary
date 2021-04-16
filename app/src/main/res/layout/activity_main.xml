@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity = "center"
+        android:orientation="horizontal"
+        android:id="@+id/loginButtonLayout1"
+        android:weightSum="1.0">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/createAcc"
+            android:text="@string/createAcc"
+            android:layout_weight="0.7"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity = "center"
+        android:orientation="horizontal"
+        android:layout_below="@id/loginButtonLayout1"
+        android:id="@+id/loginButtonLayout2"
+        android:weightSum="1.0">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/hold"
+            android:text="@string/hold"
+            android:layout_weight="0.7"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity = "center"
+        android:orientation="horizontal"
+        android:layout_below="@id/loginButtonLayout2"
+        android:weightSum="1.0">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/manage"
+            android:text="@string/manage"
+            android:layout_weight="0.7"/>
+    </LinearLayout>
+
+</RelativeLayout>

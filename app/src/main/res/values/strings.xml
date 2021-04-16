@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">otterLibrary</string>
+    <string name="createAcc" >Create Account</string>
+    <string name="hold" > Place Hold </string>
+    <string name="manage"> Manage System</string>
+    <string name="accountCreate">Create Account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="createAccount">Create Account</string>
+
+    <string-array name="genre_array">
+        <item>Memoir</item>
+        <item>Fiction</item>
+        <item>Computer Science</item>
+    </string-array>
+
+
+</resources>

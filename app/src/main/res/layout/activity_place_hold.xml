@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <Spinner
+        style="@android:style/Widget.Holo.Light.Spinner"
+        android:spinnerMode="dialog"
+        android:id="@+id/genre_spinner"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="8dp"
+        android:layout_margin="8dp"/>
+
+    <ListView
+        android:id="@+id/list_books"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
